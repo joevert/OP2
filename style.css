@@ -1,0 +1,12 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.upper {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    
+}
+logo
