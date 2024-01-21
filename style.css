@@ -71,9 +71,57 @@ header {
 
 }
 
-.image img{
-    width: 100%;
-    height: 100%;
+.image {
     display: flex;
-    flex: 1;
+    align-items: center;
+}
+
+.image img {
+    width: 100%;
+    display: flex;
+}
+
+.main {
+    background-color: white;
+    padding-left: 20%;
+    padding-right: 20%;
+    }
+
+.title {
+    padding: 50px;
+    text-align: center;
+    font-weight: bolder;
+    color: #1f2937;
+    font-size: 36px;
+}
+
+p {
+    display: flex;
+    word-wrap: break-word;
+} 
+
+.boxes {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+
+.text {
+    color: #1f2937;
+    font-size: 18px;
+    display: flex;
+    word-wrap: break-word;
+    justify-self: center;
+    width: 200px;
+    text-align: justify;
+    text-align-last: center;
+
+}
+
+.container {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: 2px solid #3882f6;
 }
