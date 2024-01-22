@@ -152,3 +152,50 @@ p {
     text-align: end;
     padding-right: 80px;
 }
+
+.call {
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.blocoazul {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.calltext {
+    display: flex;
+    color: #f9faf8;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.calldetail {
+    display: flex;
+    color: #f9faf8;
+}
+
+.botaobase {
+    display: flex;
+    color: #f9faf8;
+    font-weight: 900;
+    padding: 5px 20px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    background-color: #3882f6;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    border-color: #f9faf8;
+    border-style: solid;
+    flex-grow: 0;
+    align-self:center;
+}
