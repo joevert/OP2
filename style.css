@@ -6,8 +6,8 @@ body {
 }
 header {
     background-color: #1F2937;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 .upper {
     
@@ -40,10 +40,14 @@ header {
 }
 
 .maintext {
+        margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
     font-size: 48px;
     font-weight:bolder;
     color:#f9faf8;
-    margin: 10px;
+    
 }
 
 .secondarytext {
@@ -56,6 +60,7 @@ header {
     display: flex;
     padding: 5px 20px;
     margin-left: 10px;
+    margin-bottom: 0px;
     background-color: #3882f6;
     font-family: 'Roboto', sans-serif;
     border-radius: 10px;
@@ -67,7 +72,7 @@ header {
 .esquerda {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
 
 }
 
@@ -139,9 +144,11 @@ p {
     font-weight: lighter;
     font-style: italic;
     color: #1f2937;
+    margin-bottom: 5px;
 }
 
 .quotefont {
     font-weight: 900;
     text-align: end;
+    padding-right: 80px;
 }
